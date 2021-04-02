@@ -4,5 +4,6 @@
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element label="Type" max_length="40" name="type" type="string"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Display Name" max_length="40" name="u_display_name" type="string"/>
     </element>
 </database>
